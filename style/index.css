@@ -1,0 +1,38 @@
+button {
+  display: block;
+  height: 130px;
+  padding: 0;
+  margin: 0;
+  width: 130px;
+  vertical-align: top;
+  background: none;
+  border: none;
+  position: relative;
+  top: 0;
+}
+
+#accessibilityButton img{
+  display: block;
+  height: 130px;
+  width: 130px;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-size: 100px;
+}
+
+/* #accessibilityMenu {
+  height: 300px;
+  width: 100px;
+  background-color: #6495ed;
+  position: relative;
+  margin-left: 150px;
+} */
+
+#accessibilityDiv {
+  /* position: sticky;
+  position: -webkit-sticky;
+  top: 0; */
+}
