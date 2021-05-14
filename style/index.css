@@ -1,4 +1,4 @@
-button {
+#accessibilityButton {
   display: block;
   height: 130px;
   padding: 0;
@@ -13,26 +13,25 @@ button {
 
 #accessibilityButton img{
   display: block;
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
   border: none;
   outline: none;
 }
 
-body {
-  font-size: 100px;
+
+
+p {
+  font-size: x-large;
+  font-family: 'Cormorant Garamond';
 }
 
-/* #accessibilityMenu {
-  height: 300px;
-  width: 100px;
-  background-color: #6495ed;
-  position: relative;
-  margin-left: 150px;
-} */
+#accessibilityButtonMenu {
+  float: left;
+  margin-top: 5px;
+  display: none;
+}
 
 #accessibilityDiv {
-  /* position: sticky;
-  position: -webkit-sticky;
-  top: 0; */
+  float: left;
 }
