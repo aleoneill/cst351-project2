@@ -4,16 +4,31 @@
     <meta charset="utf-8">
     <title>Kennedy, Archer & Gifen</title>
     <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <script src="accessibility.js"></script>
   </head>
   <body>
-    <div id="accessibilityDiv"
-      <button id="accessibilityButton" type="button" onclick="accessibilityTTS()">
-        <img src="imgs/accessibility.png" alt="Accessibility">
-      </button>
-      <div id="accessibilityMenu">
+    <div id="accessibilityToggleButton">
+      <div id="accessibilityDiv">
+        <button id="accessibilityButton" type="button" onclick="toggleAccessibilityMenu()">
+          <img src="imgs/accessibility.png" alt="Accessibility">
+        </button>
+      </div>
+      <div id="accessibilityButtonMenu">
+        <button id="tts" type="button"  class="btn btn-light" onclick="accessibilityTTS()">Text To Speech</button><br>
+        <button id="enlargeText" type="button" class="btn btn-light" onclick="enlargeText()">Increase Text Size</button><br>
+        <button id="dff" type="button" class="btn btn-light" onclick="dyslexiaFriendlyText()">Dyslexia Friendly Font</button><br>
+        <button id="enlargeCursor" type="button" class="btn btn-light" onclick="enlargeCursor()">Enlarge Screen Cursor</button><br>
+        <button id="enlargeLineHeight" type="button" class="btn btn-light">Increase Line Height</button><br>
+        <!-- text spacing  -->
+        <!-- dyslexia friendly, comic sans  -->
+        <!-- larger cursor  -->
+        <!-- line height  -->
       </div>
     </div>
+    <br><br><br><br><br><br><br><br><br>
     <p id="description">Kennedy, Archer & Giffen provides a full service law practice in commercial and transactional matters, and civil litigation and appellate practice in all state and federal courts. The firm competes in quality, capacity, and experience with the largest firms, but its structure provides clients with an attorney-client relationship that is personalized, responsive, and direct. Our goal is to treat our clients as business partners, to combine excellent legal skills with solid business judgment and to play an active role in helping our clients succeed.</p>
   </body>
 </html>

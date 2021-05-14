@@ -1,3 +1,17 @@
+let toggleMenu = false;
+let toggleCursor = false;
+let toggleLargerText = false;
+let toggleDyslexiaFriendlyText = false;
+
+function toggleAccessibilityMenu() {
+  toggleMenu = !toggleMenu;
+  if (toggleMenu) {
+    document.getElementById('accessibilityButtonMenu').style.display = "block";
+  } else {
+    document.getElementById('accessibilityButtonMenu').style.display = "none";
+  }
+}
+
 function accessibilityTTS() {
   let utter = new SpeechSynthesisUtterance();
   utter.lang= 'en-US';
@@ -7,3 +21,31 @@ function accessibilityTTS() {
 
   window.speechSynthesis.speak(utter);
 }
+
+function enlargeText() {
+  toggleLargerText = !toggleLargerText;
+  if (toggleLargerText) {
+    document.getElementById('description').style.fontSize = "xx-large";
+  } else {
+    document.getElementById('description').style.fontSize = "x-large";
+  }
+}
+
+function dyslexiaFriendlyText() {
+  toggleDyslexiaFriendlyText = !toggleDyslexiaFriendlyText;
+  if (toggleDyslexiaFriendlyText) {
+    document.getElementById('description').style.fontFamily = "sans-serif";
+  } else {
+    document.getElementById('description').style.fontFamily = "Cormorant Garamond";
+  }
+}
+
+// function enlargeCursor() {
+//   toggleCursor = !toggleCursor;
+//   let root = document.documentElement;
+//   if (toggleCursor) {
+//     document.body.style.cursor = "imgs/cursor.png";
+//   } else {
+//     document.body.style.cursor = "crosshair";
+//   }
+// }
