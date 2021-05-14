@@ -1,5 +1,5 @@
 h1 {
-  font-family: trajan-pro-3, serif;
+  font-family: 'trajan-pro-3', serif;
   font-style: normal;
   font-size: 32pt;
   color: #FFFFFF;
@@ -7,11 +7,30 @@ h1 {
 }
 
 h2 {
-  font-family: trajan-pro-3, serif;
+  font-family: 'trajan-pro-3', serif;
   font-style: normal;
   font-size: 18pt;
   color: #FFFFFF;
   text-align: center;
+}
+
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18pt;
+}
+
+h4{
+  font-family: 'trajan-pro-3', serif;
+  font-style: normal;
+  font-size: 16pt;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14pt;
+  line-height: 25px;
 }
 
 .header {
@@ -22,6 +41,12 @@ h2 {
 .footer {
   background-color: #101D42;
   padding: 5pt;
+}
+
+.responsive{
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
 }
 
 #contents {
@@ -48,6 +73,19 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16pt;
+  font-family: 'trajan-pro', serif;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 li a:hover {
