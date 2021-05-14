@@ -1,0 +1,53 @@
+#header {
+  font-size: 70px;
+  font-family: trajan-pro-3,serif;
+  color: white;
+  padding: 50px;
+  background-color: #101D42;
+  text-align: center;
+  text-shadow: 5px 5px black;
+  margin: 0;
+}
+
+a {
+  color: white !important;
+  margin: 5px;
+}
+
+.navbar a:hover {
+  text-decoration:none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #101D42;
+}
+
+.navbar li {
+  display: inline;
+  text-align: center;
+  font-size: x-large;
+  font-family: trajan-pro-3,serif;
+  padding: 50px;
+}
+
+.footer {
+  background-color: #101D42;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.footer li{
+  font-family: trajan-pro-3,serif;
+  font-size: large;
+  color: white;
+  display: inline;
+  margin-left: 20px;
+  padding: 50px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  pointer-events: none;
+}

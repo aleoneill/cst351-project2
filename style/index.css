@@ -1,3 +1,10 @@
+#headerPic {
+  width: 90%;
+  height: 1000px;
+  margin-left: 100px;
+  padding-top: 100px;
+}
+
 #accessibilityButton {
   display: block;
   height: 130px;
@@ -11,7 +18,7 @@
   top: 0;
 }
 
-#accessibilityButton img{
+#accessibilityButton img {
   display: block;
   height: 100px;
   width: 100px;
@@ -19,17 +26,24 @@
   outline: none;
 }
 
+header {
+  font-size: xx-large;
+  font-family: 'Cormorant Garamond';
+  text-align: center;
+}
 
-
-p {
+#description {
   font-size: x-large;
   font-family: 'Cormorant Garamond';
+  margin: 20px;
+  padding: 50px;
 }
 
 #accessibilityButtonMenu {
   float: left;
   margin-top: 5px;
   display: none;
+  background-color: white;
 }
 
 #accessibilityDiv {
