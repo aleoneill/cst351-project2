@@ -1,37 +1,19 @@
-#accessibilityButton {
-  display: block;
-  height: 130px;
-  padding: 0;
-  margin: 0;
-  width: 130px;
-  vertical-align: top;
-  background: none;
-  border: none;
-  position: relative;
-  top: 0;
+#headerPic {
+  width: 90%;
+  height: 1000px;
+  margin-left: 100px;
+  padding-top: 100px;
 }
 
-#accessibilityButton img{
-  display: block;
-  height: 100px;
-  width: 100px;
-  border: none;
-  outline: none;
+header {
+  font-size: xx-large;
+  font-family: 'Cormorant Garamond';
+  text-align: center;
 }
 
-
-
-p {
+#description {
   font-size: x-large;
   font-family: 'Cormorant Garamond';
-}
-
-#accessibilityButtonMenu {
-  float: left;
-  margin-top: 5px;
-  display: none;
-}
-
-#accessibilityDiv {
-  float: left;
+  margin: 20px;
+  padding: 50px;
 }

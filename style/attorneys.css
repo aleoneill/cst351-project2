@@ -1,0 +1,53 @@
+.collapsible {
+  background-color: #101D42;
+  color: white;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(16, 29, 66, 0.8);
+}
+
+.content {
+  padding: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  overflow: hidden;
+}
+
+#name {
+  font-size: x-large;
+  font-family: trajan-pro-3,serif;
+  float: left;
+  padding-left: 90px;
+}
+
+#email {
+  font-size: x-large;
+  font-family: trajan-pro-3,serif;
+  float: right;
+  padding-right: 90px;
+}
+
+.image {
+  float: left;
+  flex-basis: 40%;
+}
+
+#content-description {
+  float: right;
+  padding-left: 20px;
+}
+
+#description {
+  font-family: 'Cormorant Garamond';
+  font-size: x-large;
+  text-align: justify;
+}
