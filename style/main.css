@@ -51,3 +51,39 @@ ul {
   text-decoration: none;
   pointer-events: none;
 }
+
+#accessibilityButton {
+  display: block;
+  height: 130px;
+  padding: 0;
+  margin: 0;
+  width: 130px;
+  vertical-align: top;
+  background: none;
+  border: none;
+  position: fixed;
+  float: left;
+  top: 0;
+}
+
+#accessibilityButton img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border: none;
+  outline: none;
+}
+
+#accessibilityButtonMenu {
+  float: left;
+  margin-top: 5px;
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+}
+
+#accessibilityDiv {
+  float: left;
+}

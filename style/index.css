@@ -5,27 +5,6 @@
   padding-top: 100px;
 }
 
-#accessibilityButton {
-  display: block;
-  height: 130px;
-  padding: 0;
-  margin: 0;
-  width: 130px;
-  vertical-align: top;
-  background: none;
-  border: none;
-  position: relative;
-  top: 0;
-}
-
-#accessibilityButton img {
-  display: block;
-  height: 100px;
-  width: 100px;
-  border: none;
-  outline: none;
-}
-
 header {
   font-size: xx-large;
   font-family: 'Cormorant Garamond';
@@ -37,15 +16,4 @@ header {
   font-family: 'Cormorant Garamond';
   margin: 20px;
   padding: 50px;
-}
-
-#accessibilityButtonMenu {
-  float: left;
-  margin-top: 5px;
-  display: none;
-  background-color: white;
-}
-
-#accessibilityDiv {
-  float: left;
 }
