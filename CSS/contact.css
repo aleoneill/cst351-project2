@@ -1,71 +1,31 @@
-h1{
-  font-family: cormorant-garamond,serif;
-  font-weight: 400;
-  font-style: normal;
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background-color: inherit;#101D42;
-}
-
-#menu {
-font-family: trajan-pro-3,serif;
-font-weight: 400;
-font-style: normal;
-font-size: 25pt;
-color: white;
-
-}
-
-.menu {
-  background-color: #101D42;
-}
-
-#mapDiv {
-  border-radius: 15px;
-  padding: 20px;
-  width: 600px;
-  height: 450px;
-  right:-1200px;
-  vertical-align: middle 500px;
-
-}
-
-pre {
-  font-family: trajan-pro-3,serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16pt;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  margin-top 8px;
 }
 
-.header_logo {
-  font-family: trajan-pro-3,;
-  font-weight: 400;
-  font-style: ;
-  font-size: 25pt;
-  color: white;
+.header {
   background-color: #101D42;
-  text-align: center;
-  shadow: 10px, 10px, black;
-  line-height: 77px;
+  padding: 5pt;
+}
 
+h1 {
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-size: 32pt;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 25pt;
 }
 
 h2 {
-  letter-spacing: 10px;
-  font-stretch: condensed;
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-size: 18pt;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 25pt;
 }
