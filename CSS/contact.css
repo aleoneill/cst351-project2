@@ -1,5 +1,5 @@
 h1 {
-  font-family: trajan-pro-3, serif!important;
+  font-family: 'trajan-pro-3', serif!important;
   font-style: normal;
   font-size: 32pt;
   color: #FFFFFF;
@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-  font-family: trajan-pro-3, serif!important;
+  font-family: 'trajan-pro-3', serif!important;
   font-style: normal;
   font-size: 18pt;
   color: #FFFFFF;
@@ -41,7 +41,7 @@ p{
 .footer{
   background-color: #101D42;
   padding: 5pt;
-  font-family: trajan-pro-3, serif!important;
+  font-family: 'trajan-pro-3', serif!important;
   font-style: normal;
 }
 
@@ -67,7 +67,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family:  trajan-pro-3, serif !important;
+  font-family:  'trajan-pro-3', serif !important;
   font-size: 14pt;
 }
 
@@ -83,4 +83,9 @@ li a:hover {
   float: left;
   width: 50%;
   padding: 20px;
+}
+.menu {
+  color: white;
+  font-family:  'trajan-pro-3', serif !important;
+  font-size: 14pt;
 }

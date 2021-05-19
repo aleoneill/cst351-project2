@@ -1,0 +1,20 @@
+h1 {
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-size: 32pt;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 25pt;
+}
+h2 {
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-size: 18pt;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 25pt;
+}
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18pt;
+}
