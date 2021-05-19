@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="accessibility.js"></script>
   </head>
 <body>
   <div class="header">
@@ -28,6 +29,23 @@
     <li><a href="#careers">CAREERS</a></li>
     <li><a href="#contactus">CONTACT US</a></li>
   </ul>
+</div>
+<div id="accessibilityToggleButton">
+  <div id="accessibilityDiv">
+    <button id="accessibilityButton" type="button" onclick="toggleAccessibilityMenu()">
+      <img src="imgs/accessibility.png" alt="Accessibility">
+    </button>
+  </div>
+  <div id="accessibilityButtonMenu">
+    <button id="tts" type="button"  class="btn btn-light" onclick="accessibilityTTS()">Text To Speech</button><br>
+    <button id="enlargeText" type="button" class="btn btn-light" onclick="enlargeText()">Increase Text Size</button><br>
+    <button id="dff" type="button" class="btn btn-light" onclick="dyslexiaFriendlyText()">Dyslexia Friendly Font</button><br>
+    <button id="enlargeCursor" type="button" class="btn btn-light" onclick="enlargeCursor()">Enlarge Screen Cursor</button><br>
+    <button id="enlargeLineHeight" type="button" class="btn btn-light">Increase Line Height</button><br>
+    <!-- text spacing  -->
+    <!-- larger cursor  -->
+    <!-- line height  -->
+  </div>
 </div>
 
 <div id="contents">
@@ -51,11 +69,12 @@ width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></i
     </div>
   </div>
 </div>
-<div class="footer"
-<!--Footer-->
-<h2>
- 24591 Silver Cloud Court, Suite 200 | Monterey, CA 93940 | Phone: +1(831)373-7500 | Fax: (831)373-7555 | Email: info@kaglaw.net
-</h2>
-      </div>
+<ul class="footer">
+  <li><a href="">24591 SILVER CLOUD SUITE 200</a></li>
+  <li><a href="">MONTEREY, CA 93940</a></li>
+  <li><a href="">PHONE: +1 (831) 373 - 7500</a></li>
+  <li><a href="">FAX: (831) 373 - 7555</a></li>
+  <li><a href="">EMAIL: INFO@KAGLAW.NET</a></li>
+</ul>
   </body>
 </html>
