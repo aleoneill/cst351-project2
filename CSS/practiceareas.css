@@ -18,3 +18,69 @@ h3{
   font-family: 'Cormorant Garamond', serif;
   font-size: 18pt;
 }
+h4 {
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-size: 18pt;
+  color: #FFFFFF;
+  text-align: center;
+  /*line-height: 25pt;*/
+}
+p{
+  font-family: 'Cormorant Garamond', serif!important;
+  font-size: 14pt;
+  line-height: 25px;
+}
+.header {
+  background-color: #101D42;
+  padding: 5pt;
+}
+
+.footer{
+  background-color: #101D42;
+  padding: 5pt;
+  font-family: 'trajan-pro-3', serif!important;
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #101D42;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color; white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:  'trajan-pro-3', serif !important;
+  font-size: 14pt;
+}
+
+li a:hover {
+  background-color: #040710;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.menu {
+  color: white;
+  font-family:  'trajan-pro-3', serif !important;
+  font-size: 14pt;
+}
+.column2 {
+  column-count: 2;
+}
