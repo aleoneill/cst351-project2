@@ -2,6 +2,8 @@ let toggleMenu = false;
 let toggleCursor = false;
 let toggleLargerText = false;
 let toggleDyslexiaFriendlyText = false;
+let toggleTextSpacing = false;
+let toggleLineSpacing = false;
 
 function toggleAccessibilityMenu() {
   toggleMenu = !toggleMenu;
@@ -37,6 +39,24 @@ function dyslexiaFriendlyText() {
     document.getElementById('description').style.fontFamily = "sans-serif";
   } else {
     document.getElementById('description').style.fontFamily = "Cormorant Garamond";
+  }
+}
+
+function textSpacing() {
+  toggleTextSpacing = !toggleTextSpacing;
+  if (toggleTextSpacing) {
+    document.getElementById('description').style.letterSpacing = "3px";
+  } else {
+    document.getElementById('description').style.letterSpacing = "0px";
+  }
+}
+
+function lineSpacing() {
+  toggleLineSpacing = !toggleLineSpacing;
+  if (toggleLineSpacing) {
+    document.getElementById('description').style.lineHeight = "200%";
+  } else {
+    document.getElementById('description').style.lineHeight = "1.6";
   }
 }
 
