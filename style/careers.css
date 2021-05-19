@@ -44,7 +44,7 @@ p{
   margin-right: 10%;
 }
 
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,11 +64,7 @@ li a {
   text-decoration: none;
   font-family: trajan-pro-3, serif;
   font-size: 14pt;
-}
-
-li a:hover {
-  background-color: #040710;
-}
+} */
 
 * {
   box-sizing: border-box;

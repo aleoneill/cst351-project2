@@ -32,6 +32,11 @@ ul {
   padding: 50px;
 }
 
+.navbar a:hover {
+  background-color: #040710;
+  padding: 15px;
+}
+
 .footer {
   background-color: #101D42;
   padding: 10px;
