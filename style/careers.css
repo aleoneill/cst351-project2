@@ -15,8 +15,8 @@ h2 {
   line-height: 25pt;
 }
 h3{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: xx-large;
+  font-family: 'Cormorant Garamond', serif !important;
+  font-size: xx-large !important;
 }
 p{
   font-family: 'Cormorant Garamond', serif;
@@ -26,6 +26,7 @@ p{
 .responsive{
   max-width: 100%;
   min-width: 300px;
+  max-height: 400px;
   height: auto;
 }
 
@@ -42,6 +43,7 @@ p{
 #contents {
   margin-left: 10%;
   margin-right: 10%;
+  margin: 100px;
 }
 
 /* ul {
