@@ -1,0 +1,65 @@
+h1 {
+  font-family: 'trajan-pro-3', serif!important;
+  font-style: normal;
+  font-size: 32pt;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 25pt;
+}
+
+h2 {
+  font-family: 'trajan-pro-3', serif!important;
+  font-style: normal;
+  font-size: 18pt;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 25pt;
+}
+
+.responsive {
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+
+h3 {
+  font-family: 'Cormorant Garamond', serif!important;
+  font-size: xx-large;
+  padding-left: 20%;
+}
+p{
+  font-family: 'Cormorant Garamond', serif!important;
+  font-size: x-large;
+  line-height: 25px;
+  padding-left: 20%;
+}
+.header {
+  background-color: #101D42;
+  padding: 5pt;
+}
+
+#mapDiv {
+  padding-left: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.contactDiv {
+  padding-left: 300px;
+  padding-top: 100px;
+}
+.menu {
+  color: white;
+  font-family:  'trajan-pro-3', serif !important;
+  font-size: 14pt;
+}
