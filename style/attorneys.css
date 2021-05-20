@@ -3,11 +3,12 @@
   color: white;
   cursor: pointer;
   padding: 30px;
-  width: 100%;
+  width: 88%;
   border: none;
   text-align: left;
   outline: none;
   margin-bottom: 20px;
+  margin-left: 120px;
 }
 
 .active, .collapsible:hover {
@@ -26,14 +27,14 @@
   font-size: x-large;
   font-family: trajan-pro-3,serif;
   float: left;
-  padding-left: 90px;
+  padding-left: 30px;
 }
 
 #email {
   font-size: x-large;
   font-family: trajan-pro-3,serif;
   float: right;
-  padding-right: 90px;
+  padding-right: 20px;
 }
 
 .image {
