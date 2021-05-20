@@ -1,0 +1,33 @@
+.main {
+  margin-left: 470px;
+  margin-right: 470px;
+  max-height: 100%;
+}
+
+.article {
+  max-height: 500px;
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.description {
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 70px;
+}
+
+header {
+  font-size: xx-large;
+  font-family: 'Cormorant Garamond';
+  text-align: center;
+  margin-top: 50px;
+}
+
+#articleImage {
+  height: 250px;
+  width: 184px;
+}
